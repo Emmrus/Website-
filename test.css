@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#game-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#options-container {
+    margin-top: 20px;
+}
+
+.matching-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.matching-item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.matching-item.selected {
+    background-color: #28a745;
+    color: white;
+}
+
+#lives {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#end-screen {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 20px auto;
+}
+
+.hidden {
+    display: none;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.matching-container {
+    display: flex;
+}
+
+.matching-column {
+    flex: 1;
+    margin: 5px;
+}
+
+.matching-item {
+    padding: 10px;
+    margin: 5px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.matching-dropzone {
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+#hearts {
+    font-size: 20px;
+    margin: 10px 0;
+}
